@@ -1,5 +1,5 @@
 # covid
-Documentation for bit.io's covid repo
+Documentation for [bit.io's covid repo](https://bit.io/covid)
 
 __For version and last refreshed information, see `_ingest_version` and `_ingest_timestamp` fields in each table__
 
