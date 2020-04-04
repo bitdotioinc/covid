@@ -1,6 +1,8 @@
 # covid
 Documentation for [bit.io's covid repo](https://bit.io/covid)
 
+UPDATE FREQUENCY: DAILY AT 5PM PACIFIC
+
 Do you need to learn SQL? Checkout:<br>
 https://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/<br>
 https://www.khanacademy.org/computing/computer-programming/sql<br>
