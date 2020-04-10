@@ -9,7 +9,9 @@ https://sqlbolt.com/
 * __For version and last refreshed information, see `_ingest_version` and `_ingest_timestamp` fields in each table__
 * __All schema, table, and column names are converted to lowercase and underscores__
 
-## COVID Data
+[You can also query the data via REST API](API.md)
+
+## Data Details
 
 UPDATE FREQUENCY: At least daily at 5pm Pacific
 
@@ -64,4 +66,4 @@ Dataset | Schema Name                        | Table Name                       
 | World Bank Health Stats             | `world_bank`                   | `beds_metadata`         | metadata to help analyze `beds` table   | None     | https://data.worldbank.org/indicator/SH.MED.BEDS.ZS                                                        | http://api.worldbank.org/v2/en/indicator/SH.MED.BEDS.ZS?downloadformat=csv |
 | World Bank Health Stats             | `world_bank`                   | `beds_description`         | information about the `beds` variable collected   | None     | https://data.worldbank.org/indicator/SH.MED.BEDS.ZS                                                        | http://api.worldbank.org/v2/en/indicator/SH.MED.BEDS.ZS?downloadformat=csv |
 
-For issues or questions, please submit a pull request, file an issue, or email us!
+For issues or questions, please submit a pull request, file an issue, or email covid@bit.io!
