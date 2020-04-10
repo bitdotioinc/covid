@@ -18,4 +18,4 @@ To get the OpenAPI spec for each schema, visit the root https://covid-api.bit.io
 
 ## Notes ##
 * Read only 
-* This is in testing mode. Please email covid@bit.io if you have an issue or make a GitHub issue.
+* This API is in beta. If you have an questions, need help, or get errors, please email covid@bit.io  or make a GitHub issue.
