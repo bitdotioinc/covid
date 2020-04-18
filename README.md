@@ -43,7 +43,7 @@ Dataset | Schema Name                        | Table Name                       
 | Our World in Data cases| `owind`                        | `new_deaths`                            | New deaths | `pandas.to_datetime on `date`                                                                                                                                        | https://ourworldindata.org/coronavirus-source-data | https://covid.ourworldindata.org/data/ecdc/new_deaths.csv |
 | Our World in Data cases| `owind`                        | `locations`                            | Population data | `pandas.to_datetime on `date`                                                                                                                                        | https://ourworldindata.org/coronavirus-source-data | https://covid.ourworldindata.org/data/ecdc/locations.csv |
 | Apple Mobility Data | `apple`                        | `mobility`                            | % change in mobility by date on apple devices | None                                                                                                                                      |https://www.apple.com/covid19/mobility | https://www.apple.com/covid19/mobility |
-
+| Corona Data Scraper              | `coronadatascraper`                   | `timeseries`         |  Scraped corona case and testing data for lots of geographic levels    | `pandas.to_datetime on `date`     | https://coronadatascraper.com/#home                                                        | https://coronadatascraper.com/timeseries.csv |
 
 
 ## Reference Data
@@ -70,7 +70,6 @@ Dataset | Schema Name                        | Table Name                       
 | Covidcaremap hospital data              | `covidcaremap`                   | `hospital_capacity_county`         | US bed and population information by country   | None     |https://www.covidcaremap.org/data                                                       | https://github.com/covidcaremap/covid19-healthsystemcapacity/tree/master/data/published |
 | Covidcaremap hospital data              | `covidcaremap`                   | `hospital_capacity_hrr`         |  US bed and population information by (large) city   | None     | https://www.covidcaremap.org/data                                                        | https://github.com/covidcaremap/covid19-healthsystemcapacity/tree/master/data/published |
 | Covidcaremap hospital data              | `covidcaremap`                   | `hospital_capacity_facility`         |  US bed and population information by facility/hospital   | None     | https://www.covidcaremap.org/data                                                        | https://github.com/covidcaremap/covid19-healthsystemcapacity/tree/master/data/published |
-
 
 
 For issues or questions, please submit a pull request, file an issue, or email covid@bit.io!
